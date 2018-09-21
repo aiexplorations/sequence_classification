@@ -1,12 +1,12 @@
 # Sequence Classification using LSTMs
 
-##Objectives:
+## Objectives:
 
 The objective of this repo is to explore the following problem:
 
 **If we have a number of different time series, some of which represent a certain kind of signal, and others representing a different kind, can we solve the problem of classifying them into different categories using LSTM networks?**
 
-##Background:
+## Background:
 
 1. LSTM networks are "Long-Short-Term-Memory" networks which are a class of recurrent neural networks (RNNs). RNNs are in turn a class of sequence models that have become popular in the machine learning circles for various kinds of prediction and forecasting tasks. 
 2. LSTM networks help us learn the sequential or temporal structure in data, and as a result, can be powerful in their ability to distinguish and predict sequences.
@@ -20,7 +20,7 @@ The objective of this repo is to explore the following problem:
 3. One key pressing issue therefore is to ensure that the code be updated to stabilize the LSTM network. A limited amount of stabilization can be brought about by fixing the random number seeds, but this doesn't affect the LSTM itself, and affects only numpy-based functions.
 4. Generally speaking, the LSTM model tends to good performance for higher epochs, on this small dataset. It remains to be seen how well this specific model will perform on a larger number of sequences. 
 
-##Ideas and features to add/change: 
+## Ideas and features to add/change: 
 1. Multi-class classification (classifying sets of sequences) - with interesting use cases in areas like IoT, this seems promising
 2. I love music, and I hope to learn how to classify musical sequences (melodies, and even entire songs) someday. Specifically, I would like to build a version of this that could classify Carnatic ragas. While I'd developed some Scala code that can generate such notes for specific raga definitions, would like to see if those generated tunes could be told apart by an LSTM such as this one.
 
