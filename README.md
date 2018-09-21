@@ -19,5 +19,7 @@ The objective of this repo is to explore the following problem:
 2. I love music, and I hope to learn how to classify musical sequences (melodies, and even entire songs) someday. Specifically, I would like to build a version of this that could classify Carnatic ragas. While I'd developed some Scala code that can generate such notes for specific raga definitions, would like to see if those generated tunes could be told apart by an LSTM such as this one.
 
 **Author:** Rajesh S (@rexplorations)
+
 **Web:** www.rexplorations.wordpress.com
+
 **Email:** rexplorations@gmail.com
