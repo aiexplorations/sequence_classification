@@ -26,6 +26,6 @@ The objective of this repo is to explore the following problem:
 
 **Author:** Rajesh S (@rexplorations)
 
-**Web:** www.rexplorations.wordpress.com
+**Web:** www.aiexplr.wordpress.com
 
 **Email:** rexplorations@gmail.com
